@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="https://th.bing.com/th/id/OIP.YN14qUID5yKVekAHAxv8QAHaG1?w=186&h=180&c=7&r=0&o=5&pid=1.7">
+	<title>Iuri Redes do CrossFit</title>
+</head>
+<body>
+	<div class="Logo">
+		<img src="https://th.bing.com/th/id/OIP.rK7HQaS6yPx1XXeRr4Y2pAAAAA?w=200&h=176&c=7&r=0&o=5&pid=1.7" width="35%" height="35%">
+	</div>
+
+	<div class="Mapa">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.6675753373524!2d-37.02644338569153!3d-6.040270260982147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b0171a7d43a7ff%3A0x3122b2e2c8cbbdaa!2sKadu%20Bike!5e0!3m2!1spt-BR!2sbr!4v1648079012714!5m2!1spt-BR!2sbr" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</div>
+
+	<div class="Painel">
+		<img src="https://th.bing.com/th/id/OIP.1kRRKXXjUsNj0zhU-kDT9QHaHE?w=212&h=202&c=7&r=0&o=5&pid=1.7" width="500px" height="500px">
+	</div>
+
+	<div class="Texto">
+		<h1 align="center">Sobre Iuri Redes</h1>
+		
+		<h3>O HOMI é uma MÁQUINA, que atua na área de manutenção e instalação de SERVIDORES desde SEMPRE. Ele é um DEUS dos SERVIDORES  e do LINUX. Realizando qualquer tipo de reza para o seu SERVIDOR!
+		</h3>
+	</div>
+		
+	<div class="acesso">
+		<label>Matricula</label>
+		<input class="matricula" value="" type="text" id="matricula">
+		<hr>
+		<label>Senha</label>
+		<input class="senha" type="password" id="senha">
+		<hr>
+		<a href="https://www.bing.com/images/search?view=detailV2&ccid=%2bcvnmr%2bW&id=90C71BAFEE564976C111B6DBF67551CC0B7C4A14&thid=OIP.-cvnmr-WRVMyqcP1yOvQvAHaEK&mediaurl=https%3a%2f%2fi.ytimg.com%2fvi%2fl9PUcWhdIIs%2fmaxresdefault.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.f9cbe79abf96455332a9c3f5c8ebd0bc%3frik%3dFEp8C8xRdfbbtg%26pid%3dImgRaw%26r%3d0&exph=720&expw=1280&q=se+fudeu&simid=608010160910779045&FORM=IRPRST&ck=5F60199E7D13085952DDA404400C175C&selectedIndex=1">Esqueceu a senha?</a>
+		<button onclick="validar_senha()">Entrar</button>
+	</div>
+
+	<div class="recado">
+		<h2>Acompanhe nosso DEUS pelo Instagram</h2>
+		<h2 class="insta">@iuri_redes_2022_o_melhor_do_linux</h2>
+		<hr>
+	</div>
+
+	<style>
+		body {
+	background-color: black;
+}
+
+.Mapa {
+	left: 50%;
+}
+
+.recado {
+	position: absolute;
+	top: 135%;
+	right: 60%;
+	color: white;
+}
+
+.insta {
+	text-align: center;
+	color: red;
+}
+
+.Painel {
+	position: absolute;
+	top: 73%;
+	left: 50%;
+}
+
+.Texto {
+	position: absolute;
+	top: 5%;
+	left: 45%;
+	text-align:justify;
+	color: white;
+}
+
+.acesso {
+	position: absolute;
+	top: 28%;
+	left: 60%;
+	color: red;
+}
+
+.senha {
+	position: absolute;
+	left: 28%;
+}
+
+a {
+	position: absolute;
+	left: 25%;
+	color: white;
+	display: color red;
+}
+
+button {
+	position: absolute;
+	top: 130%;
+	left: 10%;
+	width: 200px;
+	height: 30px;
+	font-family: Impact, fantasy;
+	font-size: 20px;
+	border-color: white;
+	background-color: red;
+}
+
+	</style>
+
+	<script>
+		function validar_senha() {
+	matricula = document.getElementById("matricula").value;
+	senha = document.getElementById("senha").value;
+	for (var i = 0; i < Mecanicos.length; i++) {
+		Mec_aux = Mecanicos[i]
+		if (Mec_aux["matricula"] == matricula) {
+			if (Mec_aux["senha"] == senha) {
+				alert("Acertô mizeravi, " + Mec_aux["nome"])
+				window.location.assign ("https://carlosqueiroz.netlify.com/")
+				return
+			} else {
+				alert("Erroouu a senhaaa!")
+				window.location.assign ("https://www.bing.com/ck/a?!&&p=dfdb38cbfb386b83JmltdHM9MTY2NDE1MDQwMCZpZ3VpZD0zOWUyMzY4Zi03ZGU0LTYwNjAtMzEwNy0yNDgyN2M1NTYxYTAmaW5zaWQ9NTQyNA&ptn=3&hsh=3&fclid=39e2368f-7de4-6060-3107-24827c5561a0&u=a1L3ZpZGVvcy9zZWFyY2g_cT1qdW1lbnRvK3JpbmRvJnZpZXc9ZGV0YWlsJm1pZD1CNjY0OEQxMUNENDZBRTFBRThGNEI2NjQ4RDExQ0Q0NkFFMUFFOEY0JkZPUk09VklSRQ&ntb=1")
+				return 
+			}
+		}
+	}
+	alert("Ah Burro! Num sabe nem a matricula!")
+	window.location.assign ("https://www.bing.com/ck/a?!&&p=dfdb38cbfb386b83JmltdHM9MTY2NDE1MDQwMCZpZ3VpZD0zOWUyMzY4Zi03ZGU0LTYwNjAtMzEwNy0yNDgyN2M1NTYxYTAmaW5zaWQ9NTQyNA&ptn=3&hsh=3&fclid=39e2368f-7de4-6060-3107-24827c5561a0&u=a1L3ZpZGVvcy9zZWFyY2g_cT1qdW1lbnRvK3JpbmRvJnZpZXc9ZGV0YWlsJm1pZD1CNjY0OEQxMUNENDZBRTFBRThGNEI2NjQ4RDExQ0Q0NkFFMUFFOEY0JkZPUk09VklSRQ&ntb=1")
+	return	
+}
+
+	var preco = 0;
+	var preco_final = 0;
+
+function ads_service() {
+	var table = document.getElementById("tabela");
+	var input = document.getElementById("service").value
+	var quantidade = document.getElementById("qnt_service").value
+	var armazenar = document.getElementById("total")
+
+	for (let index = 0; index < Servicos.length; index++) {
+		let servicoauxiliar = Servicos[index]
+		if (servicoauxiliar["id"] == input) {
+			preco = servicoauxiliar["preco"] * quantidade;
+			preco_final = preco_final + preco;
+			table.innerHTML = table.innerHTML + "<tr><td>" + servicoauxiliar["id"] + "</td><td>" + servicoauxiliar['nome'] + "</td><td>" + servicoauxiliar["preco"] + "</td><td>" + quantidade + "</td><td> " + preco + "</td></tr>"
+			armazenar.innerHTML = preco_final;
+		}
+
+	}
+
+}
+
+function calcular_troco() {
+	var devolver = document.getElementById("troco");
+	var receber = document.getElementById("value_give").value
+	var troco = receber - preco_final;
+	devolver.innerHTML = troco;
+}
+
+Mecanico1 = {nome: "Kadu", matricula:"2004", senha:"1311", idade: 17}
+Mecanico2 = {nome: "Patrick", matricula:"2005", senha:"1210", idade: 17}
+
+Mecanicos = [Mecanico1, Mecanico2]
+	</script>
+
+</body>
+</html>
